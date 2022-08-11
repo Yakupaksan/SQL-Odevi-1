@@ -1,0 +1,11 @@
+--1
+SELECT country FROM country WHERE country LIKE 'A%a'
+
+--2
+SELECT country FROM country WHERE country LIKE '_____%n'
+
+--3
+SELECT title FROM film WHERE title ILIKE '%t%t%t%t%'
+
+--4
+SELECT title FROM film WHERE title ILIKE '%t%t%t%t%'
